@@ -1,0 +1,23 @@
+{
+  "name": "AI Expert Marketplace",
+  "owner": "aiexpert-org",
+  "description": "Free Claude skill bundles for operators, executives, and real estate agents. Built by Brett K. Moore.",
+  "homepage": "https://aiexpert.org/marketplace",
+  "plugins": [
+    {
+      "name": "smb-operator",
+      "path": "bundles/smb-operator-bundle",
+      "description": "12 skills for small business operators: sales pipeline, cold outreach, meeting prep, weekly review, decision log."
+    },
+    {
+      "name": "executive",
+      "path": "bundles/executive-bundle",
+      "description": "14 skills for executives: 5-Stage Operator Lens, dream escalation, board deck draft, investor update, hiring loop."
+    },
+    {
+      "name": "real-estate-operator",
+      "path": "bundles/real-estate-operator-bundle",
+      "description": "13 skills for real estate agents: showing prep, listing presentation, transaction milestones, FSBO outreach."
+    }
+  ]
+}
