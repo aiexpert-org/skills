@@ -2,16 +2,84 @@
   "name": "aiexpert-executive",
   "displayName": "Claude Mastery: Executive Bundle",
   "version": "1.1.0",
-  "description": "Sixteen skills for executives.",
-  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "description": "Sixteen skills for executives: 5-Stage Operator Lens, dream escalation, board deck draft, investor update, hiring loop, decision quality check, hard conversation, quarterly strategy reset, principle check, Fractional CxO mode, executive ghost-writer, weekly executive review, interrogate decision, friction audit, all-hands remarks, layoff comms.",
+  "author": {
+    "name": "Brett K. Moore",
+    "email": "brett@brettkmoore.com",
+    "url": "https://aiexpert.org"
+  },
   "homepage": "https://aiexpert.org/marketplace/executive",
   "license": "AI-Expert-Commercial-1.0",
   "layer": "persona",
   "prerequisite": "essential-bundle",
-  "keywords": ["executive", "c-suite", "vp", "board-deck", "friction-audit", "all-hands-remarks", "layoff-comms"],
-  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "paid-plans", "agent-skills-spec": "1.0"},
+  "keywords": [
+    "executive",
+    "c-suite",
+    "vp",
+    "board-deck",
+    "investor-update",
+    "five-stage-operator-lens",
+    "dream-escalation",
+    "hiring-loop",
+    "decision-quality",
+    "hard-conversation",
+    "quarterly-strategy",
+    "friction-audit",
+    "all-hands-remarks",
+    "layoff-comms"
+  ],
+  "compatibility": {
+    "claude-code": ">=1.0.0",
+    "claude-desktop": ">=1.0.0",
+    "claude-ai": "paid-plans",
+    "agent-skills-spec": "1.0"
+  },
   "strict": false,
-  "skills": ["skills/five-stage-operator-lens", "skills/dream-escalation", "skills/board-deck-draft", "skills/investor-update", "skills/hiring-loop", "skills/decision-quality-check", "skills/hard-conversation", "skills/quarterly-strategy-reset", "skills/principle-check", "skills/fractional-cxo-mode", "skills/ghost-writer-me-exec", "skills/weekly-executive-review", "skills/interrogate-decision", "skills/friction-audit", "skills/all-hands-remarks", "skills/layoff-comms"],
-  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install executive-bundle@aiexpert", "claude_desktop_zip": "executive-bundle-v1.1.0.zip", "manual": "install/INSTALL.md"},
+  "skills": [
+    "skills/five-stage-operator-lens",
+    "skills/dream-escalation",
+    "skills/board-deck-draft",
+    "skills/investor-update",
+    "skills/hiring-loop",
+    "skills/decision-quality-check",
+    "skills/hard-conversation",
+    "skills/quarterly-strategy-reset",
+    "skills/principle-check",
+    "skills/fractional-cxo-mode",
+    "skills/ghost-writer-me-exec",
+    "skills/weekly-executive-review",
+    "skills/interrogate-decision",
+    "skills/friction-audit",
+    "skills/all-hands-remarks",
+    "skills/layoff-comms"
+  ],
+  "credits": [
+    {
+      "name": "Aaron Levie",
+      "for": "Public writing on friction as the executive's primary target \u2014 inspiration for friction-audit.",
+      "url": "https://twitter.com/levie"
+    },
+    {
+      "name": "Matt Pocock",
+      "for": "/handoff skill design (MIT) - see Essential Bundle",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "Simon Willison",
+      "for": "'Hoard things you know how to do' pattern - see Essential Bundle",
+      "url": "https://simonwillison.net"
+    },
+    {
+      "name": "Brett K. Moore",
+      "for": "Author of the Executive Bundle.",
+      "url": "https://aiexpert.org"
+    }
+  ],
+  "install": {
+    "claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install executive-bundle@aiexpert",
+    "claude_desktop_zip": "executive-bundle-v1.1.0.zip (Settings > Skills > Upload folder)",
+    "curl": "curl -sL https://install.aiexpert.org/executive | bash",
+    "manual": "install/INSTALL.md"
+  },
   "last_verified": "2026-07-06"
 }

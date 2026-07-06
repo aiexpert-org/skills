@@ -41,7 +41,7 @@ curl -sL install.aiexpert.org/executive | bash
 
 The script:
 1. Downloads the bundle zip.
-2. Confirms the bundle version.
+2. Verifies the license key you paste when prompted (from your AI Expert purchase page).
 3. Unpacks the skill files into `~/.claude/skills/aiexpert-executive/`.
 4. Adds an import line to your root `~/.claude/CLAUDE.md` so the skills auto-load on session boot.
 5. Runs a post-install verification checking that all 14 skill folders exist and each has a valid SKILL.md.
@@ -54,9 +54,9 @@ The script:
 
 ## Path 3: Manual install
 
-For anyone who wants to see the files before running any script.
+For buyers who want to see the files before running any script.
 
-**Step 1.** Download `executive-bundle-v1.0.0.zip` from https://github.com/aiexpert-org/skills/releases.
+**Step 1.** Download `executive-bundle-v1.0.0.zip` from your AI Expert purchase page.
 
 **Step 2.** Unzip.
 
@@ -77,7 +77,7 @@ For anyone who wants to see the files before running any script.
 
 Claude.ai does not have a plugin marketplace. Install per-skill through the Claude.ai personal skills UI.
 
-**Step 1.** Open the bundle folder locally after download.
+**Step 1.** Open the bundle folder locally after purchase.
 
 **Step 2.** For each skill folder in `skills/`, open the `SKILL.md` file.
 
@@ -103,6 +103,11 @@ Each SKILL.md has a `Do NOT trigger when...` clause in the description. If the s
 **Install verification failed.**
 Run `ls ~/.claude/skills/aiexpert-executive/skills/` and confirm 14 folders exist. Each folder should contain a SKILL.md file. If a folder is missing or a SKILL.md is missing, rerun the install script or extract manually per Path 3.
 
+**License key rejected.**
+Contact `support@aiexpert.org` with your purchase confirmation. Keys are one per bundle per buyer; if you have multiple installs across devices under one purchase, the key works on all your devices under the license.
+
+---
+
 ## Uninstall
 
 **Plugin marketplace path.**
@@ -121,7 +126,7 @@ Delete each of the 14 skills from Claude.ai Settings > Skills.
 ## Support
 
 - Bug reports: `github.com/aiexpert-org/skills/issues`
-- License questions: `brett@brettkmoore.com` (bundle is CC BY-NC 4.0)
+- License questions: `brett@brettkmoore.com`
 - Certified Practitioner tier (redistribution rights): `aiexpert.org/certified-practitioner`
 - Bundle upgrades and adjacent bundles: `aiexpert.org/marketplace`
 

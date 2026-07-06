@@ -1,0 +1,92 @@
+AI EXPERT MARKETPLACE COMMERCIAL LICENSE
+
+Bundle: AI Expert Executive Bundle
+Version: 1.0.0
+Author: Brett K. Moore
+Effective Date: 2026-07-06
+
+Copyright (c) 2026 Brett K. Moore / AI Expert. All rights reserved.
+
+1. GRANT OF LICENSE.
+
+Subject to the terms below, the author grants the purchaser (the "Buyer") a
+non-exclusive, non-transferable, worldwide license to install and use the
+skill files contained in this bundle for the Buyer's own use across the
+Buyer's own devices and Claude installations.
+
+2. SCOPE OF USE.
+
+The Buyer may:
+  (a) install the skill files locally on any device the Buyer owns or
+      controls;
+  (b) use the skills in personal or business operations the Buyer runs;
+  (c) modify the skill files for the Buyer's own use, provided that
+      redistribution of the modified files remains restricted by clause 3.
+
+3. REDISTRIBUTION RESTRICTIONS.
+
+The Buyer may NOT:
+  (a) redistribute, resell, sublicense, publish, or make available the skill
+      files to any third party;
+  (b) install the skill files in a client's Claude installation or a
+      client's HQ under a consulting or fractional engagement without
+      obtaining the AI Expert Certified Practitioner tier (currently
+      $4,997 initial + $497/yr renewal), which grants that install right;
+  (c) use the skill files or the bundle as training data for a machine
+      learning model or a competing product;
+  (d) remove the author attribution, the LAST-VERIFIED lines, or the
+      structural design credits (Matt Pocock, Simon Willison, Ray Dalio)
+      preserved in each SKILL.md file.
+
+4. STRUCTURAL DESIGN CREDITS.
+
+The `handoff` skill's structural design is borrowed from Matt Pocock's
+`/handoff` skill in mattpocock/skills (MIT license). The MIT credit is
+preserved in the SKILL.md of that skill and must remain intact.
+
+The `hoard` skill is inspired by Simon Willison's public practice of
+maintaining a durable working notebook. The `principle-check` skill
+adapts, but does not lift, Ray Dalio's public writing on operating
+principles. Credit lines are preserved in each SKILL.md and must remain
+intact.
+
+5. UPDATES.
+
+The Buyer receives lifetime updates for 12 months from purchase. After the
+12-month window, updates require a renewal at $99/yr. The Buyer may
+continue using the installed version indefinitely without renewal; the
+renewal covers new versions only.
+
+6. WARRANTY DISCLAIMER.
+
+THE BUNDLE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. THE AUTHOR MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING FITNESS
+FOR A PARTICULAR PURPOSE, ACCURACY, OR SAFETY OF USE IN ANY SPECIFIC
+BUSINESS OR OPERATIONAL CONTEXT.
+
+7. LIMITATION OF LIABILITY.
+
+IN NO EVENT SHALL THE AUTHOR OR AI EXPERT BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE BUNDLE
+OR THE USE OR OTHER DEALINGS IN THE BUNDLE.
+
+8. TERMINATION.
+
+The license terminates automatically if the Buyer breaches any provision
+of clause 3. On termination, the Buyer must remove all copies of the
+skill files from all devices under the Buyer's control.
+
+9. GOVERNING LAW.
+
+This license is governed by the laws of the State of South Carolina, USA,
+without regard to conflict-of-laws principles.
+
+10. CONTACT.
+
+For questions about the license, redistribution rights, the Certified
+Practitioner tier, or commercial arrangements outside this license,
+contact:
+
+  Brett K. Moore
+  brett@brettkmoore.com
+  https://aiexpert.org
