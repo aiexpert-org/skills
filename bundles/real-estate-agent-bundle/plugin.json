@@ -2,16 +2,74 @@
   "name": "aiexpert-real-estate-agent",
   "displayName": "Claude Mastery: Real Estate Agent Bundle",
   "version": "1.1.0",
-  "description": "Thirteen skills for real estate agents. Positioned under the AI Expert brand.",
-  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "description": "Thirteen skills for real estate agents: showing prep, MLS follow-up, deal doc review, referral tracking, transaction milestones, listing presentation, buyer consultation, open house plan, neighborhood brief, FSBO outreach, agent weekly review, open-house lead capture, first-showing checklist. Positioned under the AI Expert brand.",
+  "author": {
+    "name": "Brett K. Moore",
+    "email": "brett@brettkmoore.com",
+    "url": "https://aiexpert.org"
+  },
   "homepage": "https://aiexpert.org/marketplace/real-estate-agent",
   "license": "AI-Expert-Commercial-1.0",
   "layer": "persona",
   "prerequisite": "essential-bundle",
-  "keywords": ["real-estate", "real-estate-agent", "realtor", "listing", "buyer", "showing", "transaction", "fsbo", "mls", "open-house", "open-house-lead-capture", "first-showing-checklist"],
-  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "paid-plans", "agent-skills-spec": "1.0"},
+  "keywords": [
+    "real-estate",
+    "real-estate-agent",
+    "realtor",
+    "listing",
+    "buyer",
+    "showing",
+    "transaction",
+    "fsbo",
+    "mls",
+    "open-house",
+    "open-house-lead-capture",
+    "first-showing-checklist"
+  ],
+  "compatibility": {
+    "claude-code": ">=1.0.0",
+    "claude-desktop": ">=1.0.0",
+    "claude-ai": "paid-plans",
+    "agent-skills-spec": "1.0"
+  },
   "strict": false,
-  "skills": ["skills/showing-prep", "skills/mls-follow-up", "skills/deal-doc-review", "skills/referral-tracking", "skills/transaction-milestones", "skills/listing-presentation", "skills/buyer-consultation", "skills/open-house-plan", "skills/neighborhood-brief", "skills/fsbo-outreach", "skills/agent-weekly-review", "skills/open-house-lead-capture", "skills/first-showing-checklist"],
-  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install real-estate-agent-bundle@aiexpert", "claude_desktop_zip": "real-estate-agent-bundle-v1.1.0.zip", "manual": "install/INSTALL.md"},
+  "skills": [
+    "skills/showing-prep",
+    "skills/mls-follow-up",
+    "skills/deal-doc-review",
+    "skills/referral-tracking",
+    "skills/transaction-milestones",
+    "skills/listing-presentation",
+    "skills/buyer-consultation",
+    "skills/open-house-plan",
+    "skills/neighborhood-brief",
+    "skills/fsbo-outreach",
+    "skills/agent-weekly-review",
+    "skills/open-house-lead-capture",
+    "skills/first-showing-checklist"
+  ],
+  "credits": [
+    {
+      "name": "Matt Pocock",
+      "for": "/handoff skill design (MIT) - see Essential Bundle",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "Simon Willison",
+      "for": "'Hoard things you know how to do' pattern - see Essential Bundle",
+      "url": "https://simonwillison.net"
+    },
+    {
+      "name": "Brett K. Moore",
+      "for": "Author of the Real Estate Agent Bundle.",
+      "url": "https://aiexpert.org"
+    }
+  ],
+  "install": {
+    "claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install real-estate-agent-bundle@aiexpert",
+    "claude_desktop_zip": "real-estate-agent-bundle-v1.1.0.zip (Settings > Skills > Upload folder)",
+    "curl": "curl -sL https://install.aiexpert.org/real-estate-agent | bash",
+    "manual": "install/INSTALL.md"
+  },
   "last_verified": "2026-07-06"
 }
