@@ -4,11 +4,35 @@
   "description": "Claude Mastery skill bundles from AI Expert. Free Essential Bundle plus five persona layers: Small Business Owner, Executive, Real Estate Agent, Author, Podcast Host. Built by Brett K. Moore.",
   "homepage": "https://aiexpert.org/marketplace",
   "plugins": [
-    {"name": "essential-bundle", "path": "bundles/essential-bundle", "description": "17 universal skills. The free foundation every operator installs before choosing a persona layer. Includes Anthropic-default posture (human-approval-gate, install-anthropic-defaults, context-rot-check, claude-account-audit)."},
-    {"name": "small-business-owner-bundle", "path": "bundles/small-business-owner-bundle", "description": "12 skills for small business owners: sales pipeline hygiene, cold outreach, GHL workflow templates, brand voice, ghost-writer-me, meeting prep, weekly network review, weekly review, decision log, end-of-day review, coaching-call prep, local SEO."},
-    {"name": "executive-bundle", "path": "bundles/executive-bundle", "description": "16 skills for executives: 5-Stage Operator Lens, dream escalation, board deck draft, investor update, hiring loop, decision quality, hard conversation, quarterly strategy reset, principle check, Fractional CxO mode, executive ghost-writer, weekly executive review, interrogate decision, friction audit, all-hands remarks, layoff comms."},
-    {"name": "real-estate-agent-bundle", "path": "bundles/real-estate-agent-bundle", "description": "13 skills for real estate agents: showing prep, MLS follow-up, deal doc review, referral tracking, transaction milestones, listing presentation, buyer consultation, open house plan, neighborhood brief, FSBO outreach, agent weekly review, open-house lead capture, first-showing checklist. Positioned under the AI Expert brand."},
-    {"name": "author-bundle", "path": "bundles/author-bundle", "description": "12 skills for nonfiction authors: book outline shaper, chapter draft, podcast guest prep, keynote script, launch runway, testimonial request, evergreen pipeline, interrogate decision, manuscript audit, book endorsement outreach, book pitch for guest appearance, newsletter list warming."},
-    {"name": "podcast-host-bundle", "path": "bundles/podcast-host-bundle", "description": "12 skills for authenticity-focused podcast hosts: guest research, interview question designer, show notes writer, episode teaser clips, guest outreach, guest follow-up, episode planning cadence, show brand arc, sponsor pitch, podcast transcription workflow, interview recovery, interrogate decision."}
+    {
+      "name": "essential-bundle",
+      "path": "bundles/essential-bundle",
+      "description": "17 universal skills. The free foundation every operator installs before choosing a persona layer. Includes Anthropic-default posture (human-approval-gate, install-anthropic-defaults, context-rot-check, claude-account-audit)."
+    },
+    {
+      "name": "small-business-owner-bundle",
+      "path": "bundles/small-business-owner-bundle",
+      "description": "12 skills for small business owners: sales pipeline hygiene, cold outreach, GHL workflow templates, brand voice, ghost-writer-me, meeting prep, weekly network review, weekly review, decision log, end-of-day review, coaching-call prep, local SEO."
+    },
+    {
+      "name": "executive-bundle",
+      "path": "bundles/executive-bundle",
+      "description": "16 skills for executives: 5-Stage Operator Lens, dream escalation, board deck draft, investor update, hiring loop, decision quality, hard conversation, quarterly strategy reset, principle check, Fractional CxO mode, executive ghost-writer, weekly executive review, interrogate decision, friction audit, all-hands remarks, layoff comms."
+    },
+    {
+      "name": "real-estate-agent-bundle",
+      "path": "bundles/real-estate-agent-bundle",
+      "description": "13 skills for real estate agents: showing prep, MLS follow-up, deal doc review, referral tracking, transaction milestones, listing presentation, buyer consultation, open house plan, neighborhood brief, FSBO outreach, agent weekly review, open-house lead capture, first-showing checklist. Positioned under the AI Expert brand."
+    },
+    {
+      "name": "author-bundle",
+      "path": "bundles/author-bundle",
+      "description": "12 skills for nonfiction authors: book outline shaper, chapter draft, podcast guest prep, keynote script, launch runway, testimonial request, evergreen pipeline, interrogate decision, manuscript audit, book endorsement outreach, book pitch for guest appearance, newsletter list warming."
+    },
+    {
+      "name": "podcast-host-bundle",
+      "path": "bundles/podcast-host-bundle",
+      "description": "12 skills for authenticity-focused podcast hosts: guest research, interview question designer, show notes writer, episode teaser clips, guest outreach, guest follow-up, episode planning cadence, show brand arc, sponsor pitch, podcast transcription workflow, interview recovery, interrogate decision."
+    }
   ]
 }
