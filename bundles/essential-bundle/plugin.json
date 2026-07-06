@@ -1,0 +1,19 @@
+{
+  "name": "aiexpert-essential",
+  "displayName": "Claude Mastery: Essential Bundle",
+  "version": "1.1.0",
+  "description": "Seventeen universal skills. The free foundation every Claude user installs before choosing a Persona Layer. Ships Anthropic default agentic posture.",
+  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "homepage": "https://aiexpert.org/marketplace/essential",
+  "repository": {"type": "git", "url": "https://github.com/aiexpert-org/skills"},
+  "license": "CC-BY-NC-4.0",
+  "distribution": "free-newsletter-gated",
+  "layer": "essential",
+  "prerequisite_for": ["small-business-owner-bundle", "executive-bundle", "real-estate-agent-bundle", "author-bundle", "podcast-host-bundle"],
+  "keywords": ["claude-mastery", "essential", "foundation", "anthropic-defaults", "human-approval-gate", "context-rot-check"],
+  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "any", "agent-skills-spec": "1.0"},
+  "strict": false,
+  "skills": ["skills/handoff", "skills/hoard", "skills/dream-escalation", "skills/end-of-day-review", "skills/end-of-session-ritual", "skills/weekly-review", "skills/decision-log", "skills/context-management", "skills/project-scaffold", "skills/voice-corpus-builder", "skills/voice-input-protocol", "skills/claude-md-hygiene", "skills/living-notes-hygiene", "skills/glossary-builder", "skills/human-approval-gate", "skills/context-rot-check", "skills/install-anthropic-defaults", "skills/claude-account-audit"],
+  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install essential-bundle@aiexpert", "claude_desktop_zip": "essential-bundle-v1.1.0.zip", "manual": "install/INSTALL.md"},
+  "last_verified": "2026-07-06"
+}
