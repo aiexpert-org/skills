@@ -2,16 +2,72 @@
   "name": "aiexpert-author",
   "displayName": "Claude Mastery: Author Bundle",
   "version": "1.1.0",
-  "description": "Twelve skills for nonfiction authors.",
-  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "description": "Twelve skills for nonfiction authors before, during, and after book launch: book outline shaper, chapter draft, podcast guest prep, keynote script, launch runway, testimonial request, evergreen pipeline, interrogate decision, manuscript audit, book endorsement outreach, book pitch for guest appearance, newsletter list warming.",
+  "author": {
+    "name": "Brett K. Moore",
+    "email": "brett@brettkmoore.com",
+    "url": "https://aiexpert.org"
+  },
   "homepage": "https://aiexpert.org/marketplace/author",
   "license": "AI-Expert-Commercial-1.0",
   "layer": "persona",
   "prerequisite": "essential-bundle",
-  "keywords": ["author", "book", "manuscript", "book-launch", "endorsements", "newsletter-warming"],
-  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "paid-plans", "agent-skills-spec": "1.0"},
+  "keywords": [
+    "author",
+    "book",
+    "manuscript",
+    "book-launch",
+    "book-marketing",
+    "endorsements",
+    "blurbs",
+    "podcast-pitch",
+    "newsletter-warming",
+    "launch-runway",
+    "keynote"
+  ],
+  "compatibility": {
+    "claude-code": ">=1.0.0",
+    "claude-desktop": ">=1.0.0",
+    "claude-ai": "paid-plans",
+    "agent-skills-spec": "1.0"
+  },
   "strict": false,
-  "skills": ["skills/book-outline-shaper", "skills/chapter-draft", "skills/podcast-guest-prep", "skills/keynote-script", "skills/launch-runway", "skills/testimonial-request", "skills/evergreen-pipeline", "skills/interrogate-decision", "skills/manuscript-audit", "skills/book-endorsement-outreach", "skills/book-pitch-guest-appearance", "skills/newsletter-list-warming"],
-  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install author-bundle@aiexpert", "claude_desktop_zip": "author-bundle-v1.1.0.zip", "manual": "install/INSTALL.md"},
+  "skills": [
+    "skills/book-outline-shaper",
+    "skills/chapter-draft",
+    "skills/podcast-guest-prep",
+    "skills/keynote-script",
+    "skills/launch-runway",
+    "skills/testimonial-request",
+    "skills/evergreen-pipeline",
+    "skills/interrogate-decision",
+    "skills/manuscript-audit",
+    "skills/book-endorsement-outreach",
+    "skills/book-pitch-guest-appearance",
+    "skills/newsletter-list-warming"
+  ],
+  "credits": [
+    {
+      "name": "Matt Pocock",
+      "for": "/handoff and /grill-me inspiration - see Essential Bundle",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "Simon Willison",
+      "for": "'Hoard things you know how to do' pattern - see Essential Bundle",
+      "url": "https://simonwillison.net"
+    },
+    {
+      "name": "Brett K. Moore",
+      "for": "Author of the Author Bundle.",
+      "url": "https://aiexpert.org"
+    }
+  ],
+  "install": {
+    "claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install author-bundle@aiexpert",
+    "claude_desktop_zip": "author-bundle-v1.1.0.zip (Settings > Skills > Upload folder)",
+    "curl": "curl -sL https://install.aiexpert.org/author | bash",
+    "manual": "install/INSTALL.md"
+  },
   "last_verified": "2026-07-06"
 }
