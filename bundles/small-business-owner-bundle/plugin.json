@@ -2,16 +2,76 @@
   "name": "aiexpert-small-business-owner",
   "displayName": "Claude Mastery: Small Business Owner Bundle",
   "version": "1.1.0",
-  "description": "Twelve skills for small business owners: sales pipeline hygiene, cold outreach, GHL workflow templates, brand voice, ghost-writer-me, meeting prep, weekly network review, weekly review, decision log, end-of-day review, coaching call prep, and local SEO.",
-  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "description": "Twelve skills for small business owners: sales pipeline hygiene, cold outreach, GHL workflow templates, brand voice, ghost-writer-me, meeting prep, weekly network review, weekly review, decision log, end-of-day review, coaching call prep, and local SEO. Built for solopreneurs through 25-employee businesses on GoHighLevel or HubSpot.",
+  "author": {
+    "name": "Brett K. Moore",
+    "email": "brett@brettkmoore.com",
+    "url": "https://aiexpert.org"
+  },
   "homepage": "https://aiexpert.org/marketplace/small-business-owner",
   "license": "AI-Expert-Commercial-1.0",
   "layer": "persona",
   "prerequisite": "essential-bundle",
-  "keywords": ["small-business-owner", "sbo", "smb", "small-business", "sales-hygiene", "crm", "ghl", "gohighlevel", "hubspot", "meeting-prep", "weekly-review", "brand-voice", "decision-log", "coaching-call-prep", "local-seo"],
-  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "paid-plans", "agent-skills-spec": "1.0"},
+  "keywords": [
+    "small-business-owner",
+    "sbo",
+    "smb",
+    "small-business",
+    "sales-hygiene",
+    "crm",
+    "ghl",
+    "gohighlevel",
+    "hubspot",
+    "meeting-prep",
+    "weekly-review",
+    "brand-voice",
+    "decision-log",
+    "coaching-call-prep",
+    "local-seo"
+  ],
+  "compatibility": {
+    "claude-code": ">=1.0.0",
+    "claude-desktop": ">=1.0.0",
+    "claude-ai": "paid-plans",
+    "agent-skills-spec": "1.0"
+  },
   "strict": false,
-  "skills": ["skills/weekly-network-review", "skills/sales-pipeline-hygiene", "skills/cold-outreach-discipline", "skills/brand-voice-consistency", "skills/ghl-workflow-templates", "skills/meeting-prep", "skills/end-of-day-review", "skills/decision-log", "skills/weekly-review", "skills/ghost-writer-me", "skills/coaching-call-prep", "skills/local-SEO"],
-  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install small-business-owner-bundle@aiexpert", "claude_desktop_zip": "small-business-owner-bundle-v1.1.0.zip", "curl": "curl -sL https://install.aiexpert.org/sbo | bash", "manual": "install/INSTALL.md"},
+  "skills": [
+    "skills/weekly-network-review",
+    "skills/sales-pipeline-hygiene",
+    "skills/cold-outreach-discipline",
+    "skills/brand-voice-consistency",
+    "skills/ghl-workflow-templates",
+    "skills/meeting-prep",
+    "skills/end-of-day-review",
+    "skills/decision-log",
+    "skills/weekly-review",
+    "skills/ghost-writer-me",
+    "skills/coaching-call-prep",
+    "skills/local-SEO"
+  ],
+  "credits": [
+    {
+      "name": "Matt Pocock",
+      "for": "/handoff skill design (MIT) - see Essential Bundle",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "Simon Willison",
+      "for": "'Hoard things you know how to do' pattern - see Essential Bundle",
+      "url": "https://simonwillison.net"
+    },
+    {
+      "name": "Brett K. Moore",
+      "for": "Author of the Small Business Owner Bundle.",
+      "url": "https://aiexpert.org"
+    }
+  ],
+  "install": {
+    "claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install small-business-owner-bundle@aiexpert",
+    "claude_desktop_zip": "small-business-owner-bundle-v1.1.0.zip (Settings > Skills > Upload folder)",
+    "curl": "curl -sL https://install.aiexpert.org/sbo | bash",
+    "manual": "install/INSTALL.md"
+  },
   "last_verified": "2026-07-06"
 }

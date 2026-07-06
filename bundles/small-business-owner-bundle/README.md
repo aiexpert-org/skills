@@ -21,7 +21,7 @@ Built for solopreneurs through 25-employee businesses running on GoHighLevel or 
 Anthropic's default posture (Essential Bundle) applies to every action this bundle takes. Specifically:
 
 - Every `sales-pipeline-hygiene` action that touches a live deal in the CRM should route through `human-approval-gate`.
-- Every `cold-outreach-discipline` send should route through `human-approval-gate` (Tier 2 batch-approvable).
+- Every `cold-outreach-discipline` send should route through `human-approval-gate` (Tier 2 — batch-approvable).
 - Every `ghl-workflow-templates` deploy to production should route through `human-approval-gate`.
 
 The AI Expert Small Business Owner Bundle extends Anthropic's baseline with GHL-native depth. GHL is the primary tech stack this bundle assumes.
@@ -45,18 +45,18 @@ The AI Expert Small Business Owner Bundle extends Anthropic's baseline with GHL-
 
 ## 3 named customer proof points
 
-- [NAMED CUSTOMER 1] [testimonial line]
-- [NAMED CUSTOMER 2] [testimonial line]
-- [NAMED CUSTOMER 3] [testimonial line]
+- [NAMED CUSTOMER 1] — [testimonial line]
+- [NAMED CUSTOMER 2] — [testimonial line]
+- [NAMED CUSTOMER 3] — [testimonial line]
 
 ## AI Expert upgrade path
 
 The Small Business Owner Bundle is the free persona layer. For operators who want deeper implementation:
 
-- **AI Expert OS Quick Start** $997 per executive. Productized 14-day install.
-- **AI Expert OS Team Edition** $2,997 per 5-15 seat team install.
-- **AI Expert Fractional CAIO** $5,000/mo per executive. Ongoing weekly cadence.
-- **AI Expert OS Enterprise** $97,000 to $250,000 per engagement.
+- **AI Expert OS Quick Start** — $997 per executive. Productized 14-day install.
+- **AI Expert OS Team Edition** — $2,997 per 5-15 seat team install.
+- **AI Expert Fractional CAIO** — $5,000/mo per executive. Ongoing weekly cadence.
+- **AI Expert OS Enterprise** — $97,000 to $250,000 per engagement.
 
 Book at https://aiexpert.org/book.
 
@@ -66,17 +66,36 @@ Book at https://aiexpert.org/book.
 
 ## Install
 
-See `install/INSTALL.md`.
+**Claude Code plugin marketplace.**
+
+```
+/plugin marketplace add aiexpert-org/skills
+/plugin install small-business-owner-bundle@aiexpert
+```
+
+**Claude Desktop app.**
+
+1. Download `small-business-owner-bundle-v1.1.0.zip` from the newsletter link.
+2. Unzip.
+3. Claude Desktop, Settings, Skills, Add Skill, Upload folder.
+4. Point at the `skills/` folder inside the unzipped bundle.
+5. Enable all 12 skills.
+
+**Curl script.**
+
+```
+curl -sL https://install.aiexpert.org/sbo | bash
+```
 
 ## Voice rules
 
-Every skill in this bundle follows the AI Expert voice standard.
+Every skill in this bundle follows the AI Expert voice standard: no em dashes, no "X, not Y" patterns, no banned vocabulary, no emojis, no Silicon Valley voice.
 
 ## Credits
 
-- **Matt Pocock** `handoff` (Essential Bundle prerequisite).
-- **Simon Willison** `hoard` (Essential Bundle prerequisite).
-- **Brett K. Moore** Author of the SBO Bundle.
+- **Matt Pocock** — `handoff` (Essential Bundle prerequisite).
+- **Simon Willison** — `hoard` (Essential Bundle prerequisite).
+- **Brett K. Moore** — Author of the SBO Bundle.
 
 ## Support
 
@@ -86,8 +105,8 @@ Every skill in this bundle follows the AI Expert voice standard.
 
 ## Changelog
 
-- **1.1.0 (2026-07-06).** Added `coaching-call-prep` and `local-SEO`. Removed `handoff` and `hoard` (moved to Essential Bundle as prerequisites). Renamed from SMB Operator Bundle to Small Business Owner Bundle. Total skill count: 12.
-- **1.0.0 (2026-07-06).** Initial release as SMB Operator Bundle.
+- **1.1.0 (2026-07-06).** Added `coaching-call-prep` and `local-SEO`. Removed `handoff` and `hoard` (moved to Essential Bundle as prerequisites). Renamed from "SMB Operator Bundle" to "Small Business Owner Bundle." Total skill count: 12.
+- **1.0.0 (2026-07-06).** Initial release as "SMB Operator Bundle."
 
 ---
 

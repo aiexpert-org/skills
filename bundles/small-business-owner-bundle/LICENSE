@@ -1,0 +1,57 @@
+AI EXPERT COMMERCIAL SOFTWARE LICENSE
+Version 1.0
+Effective: 2026-07-06
+
+Copyright (c) 2026 Brett K. Moore. AI Expert. All rights reserved.
+
+This software (the "Bundle"), including all skill files, documentation, install scripts, and associated materials in the AI Expert SMB Operator Bundle, is licensed, not sold, to the buyer ("Licensee") under the terms of this License.
+
+1. GRANT OF LICENSE
+
+Subject to the terms below, AI Expert grants Licensee a non-exclusive, non-transferable, limited license to install and use the Bundle on systems Licensee personally owns or is authorized to configure. This is a single-buyer license. Licensee may install the Bundle on any number of personal machines that Licensee themselves operate.
+
+2. RESTRICTIONS
+
+Licensee shall NOT:
+   a. Redistribute, resell, sublicense, or transfer the Bundle to any third party.
+   b. Publish the Bundle or any substantial portion of it to public repositories, marketplaces, or file-sharing services.
+   c. Remove or alter copyright, license, or attribution notices in any file.
+   d. Reverse-engineer any obfuscated or compiled portions (none currently ship, but this clause reserves the right).
+   e. Use the Bundle to build a competing skill marketplace or a substantially derivative bundle for commercial resale.
+
+3. CERTIFIED PRACTITIONER CARVE-OUT
+
+Buyers who hold an active AI Expert OS Certified Practitioner credential ($4,997 + $497/yr) may install the Bundle in the Cowork environments or Claude instances of their engaged clients as part of a documented engagement, subject to the Certified Practitioner Agreement's separate terms.
+
+4. UPDATES
+
+Bundle updates for twelve (12) months from the purchase date are included in the purchase price. After the initial 12-month update window, continued access to new versions requires a renewal at the then-current annual renewal price (currently forty-nine US dollars, $49 USD/yr).
+
+5. THIRD-PARTY CREDIT
+
+The Bundle includes design patterns credited to third parties:
+   - Matt Pocock (`/handoff` design, MIT licensed at github.com/mattpocock/skills)
+   - Simon Willison (hoarding pattern, public writing at simonwillison.net)
+
+Those third-party credits do not confer any additional rights on the Licensee beyond the specific patterns credited.
+
+6. WARRANTY DISCLAIMER
+
+THE BUNDLE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL BRETT K. MOORE OR AI EXPERT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS BUNDLE.
+
+7. TERMINATION
+
+This License terminates automatically upon breach of any restriction in Section 2. Upon termination, Licensee must delete all copies of the Bundle. The Certified Practitioner carve-out in Section 3 survives Licensee's termination only to the extent required to fulfill client engagements in flight at the termination date.
+
+8. GOVERNING LAW
+
+This License is governed by the laws of the State of South Carolina, USA, without regard to conflicts of law provisions.
+
+9. CONTACT
+
+Questions or licensing enquiries:
+Brett K. Moore
+brett@brettkmoore.com
+https://aiexpert.org
+
+END OF LICENSE
