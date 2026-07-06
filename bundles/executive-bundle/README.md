@@ -1,53 +1,77 @@
-# AI Expert Executive Bundle
+# Claude Mastery: Executive Bundle
 
-Fourteen Claude skills for mid-market executives. The 5-Stage Operator Lens, Dream Escalation, board deck draft, investor update, hiring loop, decision-quality check, hard-conversation prep, quarterly strategy reset, and the durable-capture rhythms that compound executive judgment.
+**Version.** 1.1.0
+**Released.** 2026-07-06
+**Author.** Brett K. Moore
+**Homepage.** https://aiexpert.org/marketplace
+**License.** AI Expert Commercial 1.0
 
-## Install
+## Prerequisite: Essential Bundle
 
-Install from Claude Code:
-  /plugin marketplace add aiexpert-org/skills
-  /plugin install executive@aiexpert-org
+Install Essential first.
 
-Install from Claude.ai or Claude Desktop:
-  Download the bundle zip from https://github.com/aiexpert-org/skills/releases
-  Settings then Skills then Add then select the zip.
+## What this is
 
-## Why this is free
+Sixteen skills for the executive. 5-Stage Operator Lens, dream escalation, board deck draft, investor update, hiring loop, decision quality check, hard conversation, quarterly strategy reset, principle check, Fractional CxO mode, executive ghost-writer, weekly executive review, interrogate-decision, plus the three new v1.1.0 additions: friction audit, all-hands remarks, layoff comms.
 
-This bundle is free because it is not the product. The product is the working relationship. If these skills change how you operate as an executive, the next question is usually "what else can we do with this?" That is the conversation the AI Expert Fractional CAIO retainer was built for.
+Built for VP through C-suite at $5M+ revenue.
 
-Free skills. Newsletter. Then a real conversation when you are ready.
+## Anthropic Recommends
 
-## Newsletter
+AI Expert ships the first canonical executive-tier default set. Gates board-facing artifacts and layoff comms through human-approval-gate.
 
-Get new bundles and operator patterns as they ship: https://aiexpert.org
-(Newsletter signup form pending.)
+## The sixteen skills
 
-## The 14 skills
+| # | Skill |
+|---|---|
+| 1 | five-stage-operator-lens |
+| 2 | dream-escalation |
+| 3 | board-deck-draft |
+| 4 | investor-update |
+| 5 | hiring-loop |
+| 6 | decision-quality-check |
+| 7 | hard-conversation |
+| 8 | quarterly-strategy-reset |
+| 9 | principle-check |
+| 10 | fractional-cxo-mode |
+| 11 | ghost-writer-me-exec |
+| 12 | weekly-executive-review |
+| 13 | interrogate-decision |
+| 14 | friction-audit **NEW v1.1.0** |
+| 15 | all-hands-remarks **NEW v1.1.0** |
+| 16 | layoff-comms **NEW v1.1.0** |
 
-1. `five-stage-operator-lens`. Identifies which stage (Vision, Strategy, Planning, Execution, Tracking) the conversation is in and locks the reply altitude.
-2. `dream-escalation`. Runs a 10x, 100x, 1000x scale pass on any idea before scope locks.
-3. `board-deck-draft`. First-pass board deck from an outline in the operator's voice.
-4. `investor-update`. Monthly investor update in the standard shape investors converge on.
-5. `hiring-loop`. Role-specific interview loop: competency map, briefs, scorecard, debrief.
-6. `decision-quality-check`. Five-question filter (reversibility, cost of wrong, falsifiability, diverse input, pre-mortem) before a decision locks.
-7. `hard-conversation`. Preps a difficult conversation with opening line, response tree, resolution.
-8. `hoard`. Captures strategic insights and patterns before they evaporate.
-9. `principle-check`. Captures operating principles and surfaces them when similar decisions arrive.
-10. `weekly-executive-review`. Friday review: wins, concerns, top three, decisions locked and deferred, energy.
-11. `quarterly-strategy-reset`. Every quarter: what shifted, the new focus, what dies to make room.
-12. `handoff`. Packages the current thread as a briefing another agent or chief of staff can pick up.
-13. `fractional-cxo-mode`. Loads the operating rhythm for a Chief-of-X role you are stepping into part-time.
-14. `ghost-writer-me-exec`. High-stakes writing (LinkedIn, keynote, all-hands, layoff comms) in the operator's voice.
+## 3 named customer proof points
+
+- [NAMED CUSTOMER 1] [testimonial]
+- [NAMED CUSTOMER 2] [testimonial]
+- [NAMED CUSTOMER 3] [testimonial]
+
+## AI Expert upgrade path
+
+- AI Expert OS Quick Start $997 per exec.
+- AI Expert OS Team Edition $2,997.
+- AI Expert Fractional CAIO $5,000/mo per exec, C-suite bundle $25K-$75K/mo.
+- AI Expert OS Enterprise $97K-$250K.
+
+Book at https://aiexpert.org/book.
+
+## Affiliate
+
+10% gross flat. See https://aiexpert.org/affiliates.
 
 ## Credits
 
-- Matt Pocock, `/handoff` skill structural design (MIT). https://github.com/mattpocock/skills
-- Simon Willison, "Hoard things you know how to do" pattern (inspiration). https://simonwillison.net
-- Ray Dalio, adapted compound-interest capture pattern for `principle-check`. https://www.principles.com
-- Brett K. Moore, author.
+- **Aaron Levie** friction insight for `friction-audit`.
+- **Matt Pocock**, **Simon Willison** Essential Bundle prerequisites.
+- **Brett K. Moore** author.
 
-## Support
+## Changelog
 
-brett@brettkmoore.com
-https://aiexpert.org/marketplace
+- **1.1.0 (2026-07-06).** Added friction-audit, all-hands-remarks, layoff-comms. Removed handoff/hoard.
+- **1.0.1.** Added interrogate-decision.
+- **1.0.0.** Initial release.
+
+---
+
+_Claude Mastery: Executive Bundle._

@@ -1,68 +1,17 @@
 {
-  "name": "executive",
-  "displayName": "AI Expert Executive Bundle",
-  "version": "1.0.0",
-  "description": "14 skills for mid-market executives running their company through Claude: board prep, investor comms, hiring loops, decision-quality checks, strategic resets, and the durable-capture rhythms that compound executive judgment over time. Model-agnostic. Portable across Claude Code, Claude.ai, Codex, Cursor, and any harness reading the SKILL.md spec.",
-  "author": {
-    "name": "Brett K. Moore",
-    "email": "brett@brettkmoore.com",
-    "url": "https://aiexpert.org"
-  },
-  "homepage": "https://aiexpert.org/marketplace",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aiexpert-org/skills"
-  },
-  "license": "CC-BY-NC-4.0",
-  "distribution": "free-newsletter-gated",
-  "keywords": [
-    "executive",
-    "board",
-    "investor",
-    "hiring",
-    "decision-quality",
-    "strategic-planning",
-    "fractional-cxo",
-    "leadership",
-    "operator",
-    "mid-market",
-    "claude-skills",
-    "ai-expert"
-  ],
-  "engines": {
-    "claude-code": ">=1.0.0"
-  },
-  "skills": [
-    "skills/five-stage-operator-lens",
-    "skills/dream-escalation",
-    "skills/board-deck-draft",
-    "skills/investor-update",
-    "skills/hiring-loop",
-    "skills/decision-quality-check",
-    "skills/hard-conversation",
-    "skills/hoard",
-    "skills/handoff",
-    "skills/weekly-executive-review",
-    "skills/quarterly-strategy-reset",
-    "skills/principle-check",
-    "skills/fractional-cxo-mode",
-    "skills/ghost-writer-me-exec"
-  ],
-  "credits": [
-    {
-      "name": "Matt Pocock",
-      "contribution": "Structural design of the handoff skill, MIT license credit preserved",
-      "url": "https://github.com/mattpocock/skills"
-    },
-    {
-      "name": "Simon Willison",
-      "contribution": "Inspiration for the hoard skill's durable-notebook pattern",
-      "url": "https://simonwillison.net"
-    },
-    {
-      "name": "Ray Dalio",
-      "contribution": "Adapted compound-interest pattern for the principle-check skill",
-      "url": "https://www.principles.com"
-    }
-  ]
+  "name": "aiexpert-executive",
+  "displayName": "Claude Mastery: Executive Bundle",
+  "version": "1.1.0",
+  "description": "Sixteen skills for executives.",
+  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "homepage": "https://aiexpert.org/marketplace/executive",
+  "license": "AI-Expert-Commercial-1.0",
+  "layer": "persona",
+  "prerequisite": "essential-bundle",
+  "keywords": ["executive", "c-suite", "vp", "board-deck", "friction-audit", "all-hands-remarks", "layoff-comms"],
+  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "paid-plans", "agent-skills-spec": "1.0"},
+  "strict": false,
+  "skills": ["skills/five-stage-operator-lens", "skills/dream-escalation", "skills/board-deck-draft", "skills/investor-update", "skills/hiring-loop", "skills/decision-quality-check", "skills/hard-conversation", "skills/quarterly-strategy-reset", "skills/principle-check", "skills/fractional-cxo-mode", "skills/ghost-writer-me-exec", "skills/weekly-executive-review", "skills/interrogate-decision", "skills/friction-audit", "skills/all-hands-remarks", "skills/layoff-comms"],
+  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install executive-bundle@aiexpert", "claude_desktop_zip": "executive-bundle-v1.1.0.zip", "manual": "install/INSTALL.md"},
+  "last_verified": "2026-07-06"
 }
