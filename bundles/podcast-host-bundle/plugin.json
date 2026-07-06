@@ -2,16 +2,68 @@
   "name": "aiexpert-podcast-host",
   "displayName": "Claude Mastery: Podcast Host Bundle",
   "version": "1.1.0",
-  "description": "Twelve skills for authenticity-focused podcast hosts.",
-  "author": {"name": "Brett K. Moore", "email": "brett@brettkmoore.com", "url": "https://aiexpert.org"},
+  "description": "Twelve skills for authenticity-focused podcast hosts: guest research, interview question designer, show notes writer, episode teaser clips, guest outreach, guest follow-up, episode planning cadence, show brand arc, sponsor pitch, podcast transcription workflow, interview recovery, interrogate decision. Built for the Apex Podcast Co ICP: musicians, real estate operators, executives.",
+  "author": {
+    "name": "Brett K. Moore",
+    "email": "brett@brettkmoore.com",
+    "url": "https://aiexpert.org"
+  },
   "homepage": "https://aiexpert.org/marketplace/podcast-host",
   "license": "AI-Expert-Commercial-1.0",
   "layer": "persona",
   "prerequisite": "essential-bundle",
-  "keywords": ["podcast", "podcast-host", "guest-research", "show-notes", "sponsor-pitch", "episode-planning", "interview-recovery"],
-  "compatibility": {"claude-code": ">=1.0.0", "claude-desktop": ">=1.0.0", "claude-ai": "paid-plans", "agent-skills-spec": "1.0"},
+  "keywords": [
+    "podcast",
+    "podcast-host",
+    "podcaster",
+    "guest-research",
+    "interview-questions",
+    "show-notes",
+    "teaser-clips",
+    "sponsor-pitch",
+    "podcast-transcription",
+    "episode-planning",
+    "show-brand-arc",
+    "interview-recovery"
+  ],
+  "compatibility": {
+    "claude-code": ">=1.0.0",
+    "claude-desktop": ">=1.0.0",
+    "claude-ai": "paid-plans",
+    "agent-skills-spec": "1.0"
+  },
   "strict": false,
-  "skills": ["skills/guest-research", "skills/interview-question-designer", "skills/show-notes-writer", "skills/episode-teaser-clips", "skills/guest-outreach", "skills/guest-followup", "skills/episode-planning-cadence", "skills/show-brand-arc", "skills/sponsor-pitch", "skills/podcast-transcription-workflow", "skills/interview-recovery", "skills/interrogate-decision"],
-  "install": {"claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install podcast-host-bundle@aiexpert", "claude_desktop_zip": "podcast-host-bundle-v1.1.0.zip", "manual": "install/INSTALL.md"},
+  "skills": [
+    "skills/guest-research",
+    "skills/interview-question-designer",
+    "skills/show-notes-writer",
+    "skills/episode-teaser-clips",
+    "skills/guest-outreach",
+    "skills/guest-followup",
+    "skills/episode-planning-cadence",
+    "skills/show-brand-arc",
+    "skills/sponsor-pitch",
+    "skills/podcast-transcription-workflow",
+    "skills/interview-recovery",
+    "skills/interrogate-decision"
+  ],
+  "credits": [
+    {
+      "name": "Matt Pocock",
+      "for": "interrogate-decision inspired by /grill-me (MIT)",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "name": "Brett K. Moore",
+      "for": "Author of the Podcast Host Bundle.",
+      "url": "https://aiexpert.org"
+    }
+  ],
+  "install": {
+    "claude_code_plugin": "/plugin marketplace add aiexpert-org/skills && /plugin install podcast-host-bundle@aiexpert",
+    "claude_desktop_zip": "podcast-host-bundle-v1.1.0.zip (Settings > Skills > Upload folder)",
+    "curl": "curl -sL https://install.aiexpert.org/podcast-host | bash",
+    "manual": "install/INSTALL.md"
+  },
   "last_verified": "2026-07-06"
 }
